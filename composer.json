@@ -25,23 +25,12 @@
         }
     },
     "scripts": {
-        "post-package-install": [
-            "@php artisan hanbiro:setup --ansi"
-        ],
-        "post-package-update": [
-            "@php artisan hanbiro:setup --ansi"
-        ],
         "post-update-cmd": [
-            "@php artisan hanbiro:setup --ansi"
+            "php artisan hanbiro:setup --ansi"
         ],
         "post-install-cmd": [
-            "@php artisan hanbiro:setup --ansi"
-        ],
-        "post-root-package-install": [
-            "@php artisan hanbiro:setup --ansi"
-        ],
-        "han": [
-            "mkdir hahahah"
+            "php artisan hanbiro:setup --ansi"
         ]
-    }
+    },
+    "minimum-stability": "stable"
 }
