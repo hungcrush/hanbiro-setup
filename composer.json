@@ -4,6 +4,7 @@
     "require": {
         "php": "^7.3"
     },
+    "version": "0.2",
     "type": "project",
     "authors": [
         {
@@ -26,7 +27,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-create-project-cmd": [
+        "post-root-package-install": [
             "@php artisan hanbiro:setup --ansi"
         ]
     }
