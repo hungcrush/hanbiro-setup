@@ -29,6 +29,9 @@
     "scripts": {
         "post-install-cmd": [
             "@php artisan hanbiro:setup --ansi"
+        ],
+        "post-update-cmd": [
+            "@php artisan hanbiro:setup --ansi"
         ]
     }
 }
