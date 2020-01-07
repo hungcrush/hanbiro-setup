@@ -27,7 +27,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
-        "post-root-package-install": [
+        "post-install-cmd": [
             "@php artisan hanbiro:setup --ansi"
         ]
     }
