@@ -1,0 +1,28 @@
+{
+    "name": "hanbiro/hanbiroapp",
+    "description": "hanbiro init base packages",
+    "require": {
+        "php": "^7.3"
+    },
+    "type": "project",
+    "authors": [
+        {
+            "name": "Harry Tr",
+            "email": "hung.tv@hanbiro.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hanbiro\\HanbiroApp\\": "./src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hanbiro\\HanbiroApp\\Providers\\HanbiroAppServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
